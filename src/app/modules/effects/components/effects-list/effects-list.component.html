@@ -1,0 +1,18 @@
+<h2> Effects List </h2>
+
+<table>
+  <thead>
+    <tr>
+      <th> Name of Effect </th>
+      <th> Delete </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let effect of effects">
+      <td>{{effect.name}}</td>
+      <td>
+        <button [disabled]="effect.isSystemGenerated">Delete</button>
+      </td>
+    </tr>    
+  </tbody>
+</table>
