@@ -1,0 +1,11 @@
+<form>
+  <div>
+    <label for="name"></label>
+    <input type="text" id="name" name="name" [(ngModel)]="effect.name" autocomplete="off"
+           [disabled]="behavior == 'view'"/>
+  </div>
+  <div>
+    <button type="button" (click)="onSaveClick(effect)" [hidden]="behavior == 'view'">Save</button>
+    <button type="button" (click)="onCancelClick()">{{resetButtonText}}</button>
+  </div>
+</form>
