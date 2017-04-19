@@ -3,7 +3,7 @@ import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/Rx';
 
-import { Effect } from '../classes/effect';
+import { Effect } from '../../models/effect';
 
 @Injectable()
 export class EffectsService {

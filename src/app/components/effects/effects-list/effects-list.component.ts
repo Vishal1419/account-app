@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Pipe } from '@angular/core';
-import { Effect } from '../../classes/effect';
-import { EffectsService } from '../../services/effects.service';
+
+import { Effect } from '../../../models/effect';
+
+import { EffectsService } from '../../../services/effects/effects.service';
 
 @Component({
   selector: 'app-effects-list',

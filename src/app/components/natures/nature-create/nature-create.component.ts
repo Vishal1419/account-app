@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 
-import { Nature } from '../../classes/nature';
-import { NaturesService } from '../../services/natures.service';
+import { Nature } from '../../../models/nature';
+
+import { NaturesService } from '../../../services/natures/natures.service';
 
 @Component({
   selector: 'app-nature-create',

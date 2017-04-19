@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Pipe } from '@angular/core';
-import { Nature } from '../../classes/nature';
-import { NaturesService } from '../../services/natures.service';
+
+import { Nature } from '../../../models/nature';
+
+import { NaturesService } from '../../../services/natures/natures.service';
 
 @Component({
   selector: 'app-natures-list',

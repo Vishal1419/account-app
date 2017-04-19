@@ -3,7 +3,7 @@ import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/Rx';
 
-import { Nature } from '../classes/nature';
+import { Nature } from '../../models/nature';
 
 @Injectable()
 export class NaturesService {
